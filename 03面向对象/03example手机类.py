@@ -11,7 +11,9 @@ class Phone:
     def photo(self):
         print(f'{self.brand}{self.model}拍照')
 
+# 实例化对象
 p1 = Phone('小米', '14 Pro')
 p1.open()
 p1.close()
 p1.photo()
+
