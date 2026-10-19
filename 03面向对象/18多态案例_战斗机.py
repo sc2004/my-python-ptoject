@@ -20,7 +20,6 @@ if __name__ == '__main__':
     h1 = HeroFighter()
     e1 = EnemyFighter()
     fight(h1, e1)
-
     ah1 = AdvHeroFighter()
     e1 = EnemyFighter()
     fight(ah1, e1)
