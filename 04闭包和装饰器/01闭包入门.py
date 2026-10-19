@@ -21,7 +21,6 @@
 
 def outer(num1):
     def inner(num2):
-        nonlocal num1
         sum = num1 + num2
         print(f'和是{sum}')
     return inner
