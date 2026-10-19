@@ -37,6 +37,7 @@ class Student:
     @classmethod
     def change_school(cls):
         print(cls)
+        print(cls.school)
         print("我是类方法")
 
     # 定义静态方法

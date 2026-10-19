@@ -29,10 +29,11 @@ if __name__ == "__main__":
     print(stu2)
     #修改对象属性。
     stu2.age = 20
+    #通过对象名.属性名 来修改类属性，只能修改当前对象的属性，不会修改类属性。
     stu2.school = "北京大学"
     print(stu2)
+    #修改类属性，只能通过把类名.属性名 = 属性值 来修改类属性。
     Student.school = "中国大学"
     print(stu2.school)
-    #修改类属性。
     print(Student.school)
     print(stu1.school)
