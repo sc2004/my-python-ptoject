@@ -28,8 +28,13 @@ def login(fn_name):
 def comment():
     print('评论')
 
+@login
 def payment():
     print('支付')
 
 commment = login(comment)
 commment()
+print('-----------------')
+payment()
+
+
