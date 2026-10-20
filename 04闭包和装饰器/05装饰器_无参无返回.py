@@ -8,7 +8,7 @@
 # 定义无参无返回的get_sum()求和函数，在不改变源代码的基础上，增加友好提示
 
 def hint(fn_name):
-    def inner():
+    def inner(a, b):
         print("正在努力计算中...")
         fn_name()
     return inner
