@@ -23,6 +23,6 @@ client_socket.connect(('127.0.0.1', 10086))
 data = client_socket.recv(1024).decode('utf-8')
 print('客户端收到', data)
 #4. 给服务器端端发送数据
-client_socket.send('你好，服务器！'.encode('utf-8'))
+client_socket.send('你好，服务！'.encode('utf-8'))
 # 7. 释放资源
 client_socket.close()
